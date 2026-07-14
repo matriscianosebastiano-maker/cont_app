@@ -53,13 +53,18 @@ col2.metric("Cene Spettacolo", f"€ {cene_spettacolo:,.2f}", f"{perc_cene:.2f}%
 col3.metric("Spicciolata / Ord.", f"€ {spicciolata:,.2f}", f"{perc_spicciolata:.2f}%")
 col4.metric("Eventi Privati/Corp", f"€ {totale_eventi:,.2f}", f"{perc_eventi:.2f}% ({num_eventi} Eventi)")
 
-# 4. GENERATORE PDF CON LO STESSO LAYOUT
+# 4. GENERATORE PDF CON FUNZIONE DI CACHE
 st.markdown("---")
 
-def genera_pdf():
-    # Costruzione righe della tabella HTML
+# Memorizziamo in cache la generazione per evitare ricalcoli inutili
+# Se i parametri in input non cambiano, restituisce istantaneamente il PDF precedente.
+@st.cache_data
+def genera_pdf_cached(edited_df_dict, mese_anno, fatturato_totale, cene_spettacolo, totale_eventi, num_eventi, spicciolata, perc_cene, perc_spicciolata, perc_eventi):
+    # Ripristiniamo il DataFrame dal dizionario della cache
+    df = pd.DataFrame(edited_df_dict)
+    
     rows_html = ""
-    for _, row in edited_df.iterrows():
+    for _, row in df.iterrows():
         rows_html += f"""
         <tr>
             <td>{row['Data']}</td>
@@ -254,11 +259,26 @@ def genera_pdf():
     </body>
     </html>"""
 
-    pdf_bytes = HTML(string=html_template).write_pdf()
-    return pdf_bytes
+    return HTML(string=html_template).write_pdf()
 
-# Tasto di download del PDF
-pdf_data = genera_pdf()
+# Generiamo il dizionario dai dati per la firma della cache
+df_dict = edited_df.to_dict(orient="records")
+
+# Richiamiamo la versione con la cache
+pdf_data = genera_pdf_cached(
+    df_dict, 
+    mese_anno, 
+    fatturato_totale, 
+    cene_spettacolo, 
+    totale_eventi, 
+    num_eventi, 
+    spicciolata, 
+    perc_cene, 
+    perc_spicciolata, 
+    perc_eventi
+)
+
+# Tasto di download del PDF (restituisce istantaneamente il file memorizzato in cache)
 st.download_button(
     label="📄 Scarica Report PDF A4 (Pagina Singola)",
     data=pdf_data,
