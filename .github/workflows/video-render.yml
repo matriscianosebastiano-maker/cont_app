@@ -1,0 +1,26 @@
+name: Kids Song Club - montaggio video
+on:
+  workflow_dispatch:
+    inputs:
+      langs:
+        description: "Lingue (es. en,it,es)"
+        default: "en,it,es"
+  push:
+    paths: ["video-render/**"]
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - working-directory: video-render
+        run: python3 render.py timeline.json "${{ github.event.inputs.langs || 'en,it,es' }}"
+      - name: Pubblica come release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="render-$(date +%Y%m%d-%H%M%S)"
+          gh release create "$TAG" video-render/out/*.mp4 --title "$TAG" --notes "Video renderizzati automaticamente"
