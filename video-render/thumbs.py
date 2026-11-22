@@ -4,10 +4,22 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 FONT_URL = "https://github.com/google/fonts/raw/main/ofl/fredokaone/FredokaOne-Regular.ttf"
 
+def _get_font():
+    if os.path.exists("title.ttf"):
+        return "title.ttf"
+    import re
+    try:
+        css = urllib.request.urlopen(urllib.request.Request(
+            "https://fonts.googleapis.com/css2?family=Lilita+One", headers={"User-Agent": "curl/8"})).read().decode()
+        url = re.search(r"url\((https://[^)]+)\)", css).group(1)
+        urllib.request.urlretrieve(url, "title.ttf")
+        return "title.ttf"
+    except Exception as e:
+        print("font fallback:", e)
+        return "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+
 def font(size):
-    if not os.path.exists("fredoka.ttf"):
-        urllib.request.urlretrieve(FONT_URL, "fredoka.ttf")
-    return ImageFont.truetype("fredoka.ttf", size)
+    return ImageFont.truetype(_get_font(), size)
 
 def fit(draw, text, maxw, start):
     s = start
