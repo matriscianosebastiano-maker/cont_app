@@ -2,34 +2,43 @@
  "A-tre-percorsi": [
   {
    "img": "https://static.wixstatic.com/media/b66580_dcc0677785b643f8bb4754ec6aa3e67f~mv2.jpg",
-   "kicker": "Cucina d'autore",
-   "title": "Tre percorsi.\nUna sola tavola.",
-   "body": "Radici, Ricerca, Orizzonti: scegli come vivere la tua cena."
-  },
-  {
-   "img": "https://static.wixstatic.com/media/b66580_93764d41ee714104a340d2eeef140141~mv2.jpg",
-   "kicker": "Percorso 1",
-   "title": "Radici",
-   "body": "I sapori di casa, riletti dallo chef."
-  },
-  {
-   "img": "https://static.wixstatic.com/media/b66580_f05f48d0603949abb8b2344ddad033bb~mv2.jpg",
-   "kicker": "Percorso 2",
-   "title": "Ricerca",
-   "body": "Tecnica, precisione, ingredienti scelti uno a uno."
+   "kicker": "Menù degustazione",
+   "title": "Radici. Ricerca. Orizzonti.",
+   "body": "Tre percorsi dello chef, da 60 € a persona."
   },
   {
    "img": "https://static.wixstatic.com/media/b66580_ab20476f6322471a8207e270884f1e00~mv2.jpg",
-   "kicker": "Percorso 3",
+   "fy": 0.15,
+   "kicker": "Terra · 60 € a persona",
+   "title": "Radici",
+   "body": "Il respiro della terra, l'anima della memoria."
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_93764d41ee714104a340d2eeef140141~mv2.jpg",
+   "kicker": "Mare · 75 € a persona",
+   "title": "Ricerca",
+   "body": "L'alchimia della materia, l'elogio dell'essenziale."
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_f05f48d0603949abb8b2344ddad033bb~mv2.jpg",
+   "kicker": "Libera interpretazione dello chef · 90 €",
    "title": "Orizzonti",
-   "body": "Il piatto che non ti aspetti.",
-   "fy": 0.15
+   "size": 80,
+   "body": "Il coraggio di sognare, l'abbraccio con l'infinito."
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_4f270fa0b68d4bf8b08100a0097b814b~mv2.jpg",
+   "kicker": "Idea regalo",
+   "title": "Regala una degustazione",
+   "body": "Con la Gift Card Venti Punto Zero: un pranzo o una cena da ricordare.",
+   "cta": "Scrivici su WhatsApp"
   },
   {
    "img": "https://static.wixstatic.com/media/b66580_68b25de1aa5246aeba717a9393246826~mv2.jpg",
-   "kicker": "San Vitaliano",
-   "title": "Il tuo tavolo ti aspetta",
-   "cta": "Prenota online"
+   "kicker": "San Vitaliano · da martedì a domenica",
+   "title": "Prenota online il tuo percorso",
+   "body": "Pranzo e cena, fino a 12 persone. Il menù è per tutto il tavolo.",
+   "cta": "Prenota la degustazione"
   }
  ],
  "B-sere-inverno": [
