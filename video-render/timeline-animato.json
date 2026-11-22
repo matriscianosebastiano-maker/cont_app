@@ -1,0 +1,250 @@
+{
+ "scenes": {
+  "S1": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/a14bfe740_scene01.jpg",
+  "S2": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/294c6ad28_scene02.jpg",
+  "S3": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/1bcd60b32_scene03.jpg",
+  "S4": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/23820979c_scene04.jpg",
+  "S5": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/4b726ee1d_scene05.jpg",
+  "S6": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/d7339d1f8_scene06.jpg",
+  "S7": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/44cc12a43_scene07.jpg",
+  "S8": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/11b099ceb_scene08.jpg",
+  "S9": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/6f9df11de_scene09.jpg",
+  "S10": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/212263dc8_scene10.jpg",
+  "S11": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/8ec8429ae_scene11.jpg",
+  "S12": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/953f5b636_scene12.jpg",
+  "S13": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/04d6eafbf_scene13.jpg",
+  "S14": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/aa807b6eb_scene14.jpg",
+  "S15": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/a5fb32b20_scene15.jpg",
+  "S16": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/9d074df74_scene16.jpg"
+ },
+ "videos": {
+  "en": {
+   "audio": "https://media.base44.com/files/public/6b01ae793be6172e55284e26/4f26f8e7c_colors-song-en.wav",
+   "end": 125,
+   "cuts": [
+    [
+     0,
+     "S1"
+    ],
+    [
+     13.3,
+     "S9"
+    ],
+    [
+     20.7,
+     "S2"
+    ],
+    [
+     25,
+     "S3"
+    ],
+    [
+     29.4,
+     "S4"
+    ],
+    [
+     33.6,
+     "S5"
+    ],
+    [
+     39.4,
+     "S10"
+    ],
+    [
+     45.5,
+     "S11"
+    ],
+    [
+     54.2,
+     "S12"
+    ],
+    [
+     58.3,
+     "S13"
+    ],
+    [
+     62.6,
+     "S14"
+    ],
+    [
+     65.9,
+     "S15"
+    ],
+    [
+     70.1,
+     "S6"
+    ],
+    [
+     81.7,
+     "S16"
+    ],
+    [
+     86.2,
+     "S7"
+    ],
+    [
+     93.6,
+     "S6"
+    ],
+    [
+     105,
+     "S8"
+    ]
+   ],
+   "animate": true,
+   "bpm": 110
+  },
+  "it": {
+   "audio": "https://media.base44.com/files/public/6b01ae793be6172e55284e26/2efc6199c_colors-song-it.wav",
+   "end": 128,
+   "cuts": [
+    [
+     0,
+     "S9"
+    ],
+    [
+     25.1,
+     "S1"
+    ],
+    [
+     33.7,
+     "S2"
+    ],
+    [
+     38,
+     "S3"
+    ],
+    [
+     42,
+     "S4"
+    ],
+    [
+     46,
+     "S5"
+    ],
+    [
+     50,
+     "S10"
+    ],
+    [
+     55,
+     "S11"
+    ],
+    [
+     59.9,
+     "S12"
+    ],
+    [
+     63.5,
+     "S13"
+    ],
+    [
+     67.5,
+     "S14"
+    ],
+    [
+     72.6,
+     "S15"
+    ],
+    [
+     77,
+     "S6"
+    ],
+    [
+     85.7,
+     "S11"
+    ],
+    [
+     94.4,
+     "S16"
+    ],
+    [
+     103,
+     "S6"
+    ],
+    [
+     111.6,
+     "S8"
+    ]
+   ],
+   "animate": true,
+   "bpm": 110
+  },
+  "es": {
+   "audio": "https://media.base44.com/files/public/6b01ae793be6172e55284e26/4c60e800d_colors-song-es.wav",
+   "end": 128,
+   "cuts": [
+    [
+     0,
+     "S9"
+    ],
+    [
+     25.1,
+     "S1"
+    ],
+    [
+     33.7,
+     "S2"
+    ],
+    [
+     38,
+     "S3"
+    ],
+    [
+     42,
+     "S4"
+    ],
+    [
+     46,
+     "S5"
+    ],
+    [
+     50,
+     "S10"
+    ],
+    [
+     55,
+     "S11"
+    ],
+    [
+     59.9,
+     "S12"
+    ],
+    [
+     63.5,
+     "S13"
+    ],
+    [
+     67.5,
+     "S14"
+    ],
+    [
+     72.6,
+     "S15"
+    ],
+    [
+     77,
+     "S6"
+    ],
+    [
+     85.7,
+     "S11"
+    ],
+    [
+     94.4,
+     "S16"
+    ],
+    [
+     103,
+     "S6"
+    ],
+    [
+     111.6,
+     "S8"
+    ]
+   ],
+   "animate": true,
+   "bpm": 110
+  }
+ }
+}

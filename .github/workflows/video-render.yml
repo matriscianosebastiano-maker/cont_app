@@ -2,25 +2,30 @@ name: Kids Song Club - montaggio video
 on:
   workflow_dispatch:
     inputs:
+      timeline:
+        description: "File timeline in video-render/"
+        default: "timeline.json"
       langs:
         description: "Lingue (es. en,it,es)"
         default: "en,it,es"
-  push:
-    paths: ["video-render/**"]
+      mode:
+        description: "full oppure preview (primi 20 s)"
+        default: "full"
 permissions:
   contents: write
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - run: pip install "rembg[cpu]" opencv-python-headless pillow numpy
       - working-directory: video-render
-        run: python3 render.py timeline.json "${{ github.event.inputs.langs || 'en,it,es' }}"
+        run: python3 render.py "${{ inputs.timeline }}" "${{ inputs.langs }}" "${{ inputs.mode }}"
       - name: Pubblica come release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           TAG="render-$(date +%Y%m%d-%H%M%S)"
-          gh release create "$TAG" video-render/out/*.mp4 --title "$TAG" --notes "Video renderizzati automaticamente"
+          gh release create "$TAG" video-render/out/*.mp4 --title "$TAG (${{ inputs.mode }})" --notes "Video renderizzati automaticamente"

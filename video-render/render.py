@@ -23,6 +23,12 @@ def render(lang, cfg, scenes, out_dir, work):
         n = max(2, round(dur * FPS))
         z = f"1+0.08*on/{n}" if i % 2 == 0 else f"1.08-0.08*on/{n}"
         clip = f"{work}/{lang}_{i:02d}.mp4"
+        if cfg.get("animate"):
+            import animate
+            print("animate", sid, round(dur, 1), flush=True)
+            animate.render_clip(scenes[sid], dur, clip, bpm=cfg.get("bpm", 110), zoom_in=(i % 2 == 0))
+            clips.append((clip, dur))
+            continue
         run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", scenes[sid],
              "-vf", f"scale={W*2}:{H*2},zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W}x{H}:fps={FPS},format=yuv420p",
              "-frames:v", str(n), "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", clip])
@@ -50,6 +56,11 @@ def render(lang, cfg, scenes, out_dir, work):
 def main():
     cfg = json.load(open(sys.argv[1] if len(sys.argv) > 1 else "timeline.json"))
     langs = sys.argv[2].split(",") if len(sys.argv) > 2 else list(cfg["videos"])
+    if len(sys.argv) > 3 and sys.argv[3] == "preview":
+        for l in langs:
+            v = cfg["videos"][l]
+            v["cuts"] = [c for c in v["cuts"] if c[0] < 20]
+            v["end"] = 22
     work, out_dir = "work", "out"
     os.makedirs(work, exist_ok=True); os.makedirs(out_dir, exist_ok=True)
     scenes = {k: fetch(v, f"{work}/{k}.jpg") if v.startswith("http") else v for k, v in cfg["scenes"].items()}
