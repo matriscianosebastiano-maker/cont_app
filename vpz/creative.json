@@ -89,5 +89,28 @@
    "title": "Raccontaci la tua idea",
    "cta": "Richiedi un preventivo"
   }
+ ],
+ "D-eventi-spinta": [
+  {
+   "img": "https://static.wixstatic.com/media/b66580_755db6970914450cafce82942c2b206f~mv2.jpg",
+   "kicker": "Cene aziendali · Dicembre",
+   "title": "La cena di Natale del tuo team",
+   "body": "Nella sala vetro, con menu su misura. Date di dicembre limitate.",
+   "cta": "Scrivici su WhatsApp"
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_5a603556fb6d4e1ba34fd32d83aafe2b~mv2.jpg",
+   "kicker": "Feste di 18 anni",
+   "title": "Il tuo 18° in una location che resta nelle foto",
+   "body": "Aperitivo, cena e drink: raccontaci la tua idea.",
+   "cta": "Scrivici su WhatsApp"
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_4f270fa0b68d4bf8b08100a0097b814b~mv2.jpg",
+   "kicker": "Compleanni e ricorrenze",
+   "title": "Pensiamo a tutto noi",
+   "body": "Dall'aperitivo alla cena servita, a San Vitaliano.",
+   "cta": "Scrivici su WhatsApp"
+  }
  ]
 }
