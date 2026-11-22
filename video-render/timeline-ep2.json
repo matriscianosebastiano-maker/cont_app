@@ -1,0 +1,276 @@
+{
+ "scenes": {
+  "G": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/a14bfe740_scene01.jpg",
+  "HOP": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/212263dc8_scene10.jpg",
+  "CLAP": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/9d074df74_scene16.jpg",
+  "BYE": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/11b099ceb_scene08.jpg",
+  "D": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/22588ecf5_e2-dita.jpg",
+  "SUN": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/88a047eb3_e2-sole.jpg",
+  "FL": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/9b2a3ca53_e2-fiori.jpg",
+  "CL": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/14696422e_e2-nuvole.jpg",
+  "ST": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/6a3ac7674_e2-stelle.jpg",
+  "AM": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/33e720e97_e2-amici.jpg",
+  "ME": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/0447c9335_e2-mele.jpg",
+  "BO": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/a622ab8d9_e2-bolle.jpg",
+  "RA": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/5d7d2a2a9_e2-rane.jpg",
+  "PA": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/5beb874d4_e2-palloncini.jpg",
+  "BA": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/95043dfdd_e2-baci.jpg"
+ },
+ "videos": {
+  "en": {
+   "name": "counting-song",
+   "animate": true,
+   "bpm": 110,
+   "audio": "https://media.base44.com/files/public/6b01ca3020fc449ceec2f9a0/46bc42052_counting-song-en.wav",
+   "end": 129,
+   "cuts": [
+    [
+     0,
+     "G"
+    ],
+    [
+     11.2,
+     "D"
+    ],
+    [
+     19.6,
+     "HOP"
+    ],
+    [
+     28.4,
+     "D"
+    ],
+    [
+     37.1,
+     "SUN"
+    ],
+    [
+     41.7,
+     "FL"
+    ],
+    [
+     46.2,
+     "CL"
+    ],
+    [
+     50.6,
+     "ST"
+    ],
+    [
+     54.6,
+     "AM"
+    ],
+    [
+     58.9,
+     "ME"
+    ],
+    [
+     63.8,
+     "BO"
+    ],
+    [
+     67.8,
+     "RA"
+    ],
+    [
+     72.5,
+     "PA"
+    ],
+    [
+     76.4,
+     "BA"
+    ],
+    [
+     80.7,
+     "HOP"
+    ],
+    [
+     89.5,
+     "D"
+    ],
+    [
+     98.1,
+     "CLAP"
+    ],
+    [
+     107,
+     "AM"
+    ],
+    [
+     115.6,
+     "BYE"
+    ]
+   ]
+  },
+  "it": {
+   "name": "counting-song",
+   "animate": true,
+   "bpm": 110,
+   "audio": "https://media.base44.com/files/public/6b01ca3020fc449ceec2f9a0/37f55be7e_counting-song-it.wav",
+   "end": 130,
+   "cuts": [
+    [
+     0,
+     "G"
+    ],
+    [
+     16.5,
+     "D"
+    ],
+    [
+     25.9,
+     "HOP"
+    ],
+    [
+     34.4,
+     "D"
+    ],
+    [
+     43.4,
+     "SUN"
+    ],
+    [
+     47.5,
+     "FL"
+    ],
+    [
+     51.8,
+     "CL"
+    ],
+    [
+     56.2,
+     "ST"
+    ],
+    [
+     60,
+     "AM"
+    ],
+    [
+     63.5,
+     "ME"
+    ],
+    [
+     67.7,
+     "BO"
+    ],
+    [
+     71.5,
+     "RA"
+    ],
+    [
+     75.5,
+     "PA"
+    ],
+    [
+     79.4,
+     "BA"
+    ],
+    [
+     83.8,
+     "HOP"
+    ],
+    [
+     92.2,
+     "D"
+    ],
+    [
+     100.9,
+     "CLAP"
+    ],
+    [
+     105.2,
+     "AM"
+    ],
+    [
+     117.9,
+     "BYE"
+    ]
+   ]
+  },
+  "es": {
+   "name": "counting-song",
+   "animate": true,
+   "bpm": 110,
+   "audio": "https://media.base44.com/files/public/6b01ca3020fc449ceec2f9a0/aef24dfe6_counting-song-es.wav",
+   "end": 130,
+   "cuts": [
+    [
+     0,
+     "G"
+    ],
+    [
+     13.5,
+     "D"
+    ],
+    [
+     22.6,
+     "HOP"
+    ],
+    [
+     31.2,
+     "D"
+    ],
+    [
+     39.8,
+     "SUN"
+    ],
+    [
+     44.1,
+     "FL"
+    ],
+    [
+     48.5,
+     "CL"
+    ],
+    [
+     52.8,
+     "ST"
+    ],
+    [
+     57.2,
+     "AM"
+    ],
+    [
+     61.4,
+     "ME"
+    ],
+    [
+     65.8,
+     "BO"
+    ],
+    [
+     70,
+     "RA"
+    ],
+    [
+     74.5,
+     "PA"
+    ],
+    [
+     78.8,
+     "BA"
+    ],
+    [
+     83.1,
+     "HOP"
+    ],
+    [
+     91.7,
+     "D"
+    ],
+    [
+     100.1,
+     "CLAP"
+    ],
+    [
+     109,
+     "AM"
+    ],
+    [
+     117.4,
+     "BYE"
+    ]
+   ]
+  }
+ }
+}

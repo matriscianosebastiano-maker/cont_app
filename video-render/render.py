@@ -47,7 +47,7 @@ def render(lang, cfg, scenes, out_dir, work):
     filt.append(f"{prev}{wm},fade=t=in:st=0:d=1,fade=t=out:st={end-2.5}:d=2.5,format=yuv420p[vout]")
     a = len(clips)
     filt.append(f"[{a}:a]atrim=0:{end},afade=t=out:st={end-2.5}:d=2.5,aresample=48000[aout]")
-    out = f"{out_dir}/colors-song-{lang}.mp4"
+    out = f"{out_dir}/{cfg.get('name', 'colors-song')}-{lang}.mp4"
     run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-i", audio, "-filter_complex", ";".join(filt),
          "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
          "-r", str(FPS), "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-t", str(end), out])
