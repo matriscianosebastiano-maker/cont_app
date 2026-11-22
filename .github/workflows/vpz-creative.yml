@@ -1,0 +1,15 @@
+name: VPZ - creativita inverno
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - working-directory: vpz
+        run: python3 creative.py
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "vpz-creative-$(date +%m%d%H%M%S)" vpz/out/*.jpg --title "VPZ creativita inverno" --notes "anteprime"
