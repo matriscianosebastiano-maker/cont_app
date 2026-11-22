@@ -1,0 +1,22 @@
+name: Kids Song Club - miniature
+on:
+  workflow_dispatch:
+    inputs:
+      config:
+        description: "File in video-render/"
+        default: "thumbs.json"
+permissions:
+  contents: write
+jobs:
+  thumbs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - working-directory: video-render
+        run: python3 thumbs.py "${{ inputs.config }}"
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="thumbs-$(date +%Y%m%d-%H%M%S)"
+          gh release create "$TAG" video-render/out/thumb-*.jpg --title "$TAG" --notes "Miniature"
