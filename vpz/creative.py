@@ -51,7 +51,7 @@ def slide(s, out, idx, tot):
     im = Image.composite(shade, im, g.resize((W, H)))
     d = ImageDraw.Draw(im)
     d.text((60, 56), "VENTIPUNTO ZERO", font=F(SANS, 30), fill=CREAM)
-    if tot > 1: d.text((W - 60, 56), f"{idx}/{tot}", font=F(SANS, 28), fill=CREAM, anchor="ra")
+    if tot > 1 and not s.get("single"): d.text((W - 60, 56), f"{idx}/{tot}", font=F(SANS, 28), fill=CREAM, anchor="ra")
     y = H - 80
     lines = []
     if s.get("cta"):
