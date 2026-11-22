@@ -1,0 +1,15 @@
+name: VPZ - provino foto
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - working-directory: vpz
+        run: python3 sheet.py
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "vpz-sheet-$(date +%H%M%S)" vpz/out/sheet.jpg --title "VPZ provino" --notes "provino"
