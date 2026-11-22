@@ -1,21 +1,83 @@
 {
  "A-tre-percorsi": [
-  {"img":"https://static.wixstatic.com/media/b66580_dcc0677785b643f8bb4754ec6aa3e67f~mv2.jpg","kicker":"Cucina d'autore","title":"Tre percorsi.\nUna sola tavola.","body":"Radici, Ricerca, Orizzonti: scegli come vivere la tua cena."},
-  {"img":"https://static.wixstatic.com/media/b66580_93764d41ee714104a340d2eeef140141~mv2.jpg","kicker":"Percorso 1","title":"Radici","body":"I sapori di casa, riletti dallo chef."},
-  {"img":"https://static.wixstatic.com/media/b66580_f05f48d0603949abb8b2344ddad033bb~mv2.jpg","kicker":"Percorso 2","title":"Ricerca","body":"Tecnica, precisione, ingredienti scelti uno a uno."},
-  {"img":"https://static.wixstatic.com/media/b66580_6d644e832dd8456ca4b320e482882d16~mv2.jpg","kicker":"Percorso 3","title":"Orizzonti","body":"Il piatto che non ti aspetti."},
-  {"img":"https://static.wixstatic.com/media/b66580_7ac511b389ad44728aa1f058c880e925~mv2.jpeg","kicker":"Pomigliano d'Arco","title":"Il tuo tavolo ti aspetta","cta":"Prenota online"}
+  {
+   "img": "https://static.wixstatic.com/media/b66580_dcc0677785b643f8bb4754ec6aa3e67f~mv2.jpg",
+   "kicker": "Cucina d'autore",
+   "title": "Tre percorsi.\nUna sola tavola.",
+   "body": "Radici, Ricerca, Orizzonti: scegli come vivere la tua cena."
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_93764d41ee714104a340d2eeef140141~mv2.jpg",
+   "kicker": "Percorso 1",
+   "title": "Radici",
+   "body": "I sapori di casa, riletti dallo chef."
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_f05f48d0603949abb8b2344ddad033bb~mv2.jpg",
+   "kicker": "Percorso 2",
+   "title": "Ricerca",
+   "body": "Tecnica, precisione, ingredienti scelti uno a uno."
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_6d644e832dd8456ca4b320e482882d16~mv2.jpg",
+   "kicker": "Percorso 3",
+   "title": "Orizzonti",
+   "body": "Il piatto che non ti aspetti."
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_68b25de1aa5246aeba717a9393246826~mv2.jpg",
+   "kicker": "Pomigliano d'Arco",
+   "title": "Il tuo tavolo ti aspetta",
+   "cta": "Prenota online"
+  }
  ],
  "B-sere-inverno": [
-  {"img":"https://static.wixstatic.com/media/b66580_5a603556fb6d4e1ba34fd32d83aafe2b~mv2.jpg","kicker":"Inverno","title":"Le sere d'inverno si passano a tavola","body":"Cena, vino e una sala calda in cui restare."},
-  {"img":"https://static.wixstatic.com/media/b66580_8312af37a44e4ffe827507930b85023d~mv2.jpg","kicker":"La cucina","title":"Piatti caldi, pensati per la stagione"},
-  {"img":"https://static.wixstatic.com/media/b66580_a564d5825a9648e2a3695a35089d7050~mv2.jpg","kicker":"La cantina","title":"Oltre 300 etichette","body":"Chiedi l'abbinamento: lo scegliamo con te."},
-  {"img":"https://static.wixstatic.com/media/b66580_755db6970914450cafce82942c2b206f~mv2.jpg","kicker":"La sala vetro","title":"Luci basse, cielo d'inverno"},
-  {"img":"https://static.wixstatic.com/media/b66580_c776310ea45c48a8a5d12f257b31e668~mv2.jpg","kicker":"Dicembre","title":"Cene di Natale e di fine anno","cta":"Prenota il tavolo"}
+  {
+   "img": "https://static.wixstatic.com/media/b66580_5e4116a5394d43e1989e6c028e7df184~mv2.jpg",
+   "kicker": "Inverno",
+   "title": "Le sere d'inverno si passano a tavola",
+   "body": "Cena, vino e una sala calda in cui restare."
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_8312af37a44e4ffe827507930b85023d~mv2.jpg",
+   "kicker": "La cucina",
+   "title": "Piatti caldi, pensati per la stagione"
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_5a603556fb6d4e1ba34fd32d83aafe2b~mv2.jpg",
+   "kicker": "La cantina",
+   "title": "Oltre 300 etichette",
+   "body": "Chiedi l'abbinamento: lo scegliamo con te."
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_755db6970914450cafce82942c2b206f~mv2.jpg",
+   "kicker": "La sala vetro",
+   "title": "Luci basse, cielo d'inverno"
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_c776310ea45c48a8a5d12f257b31e668~mv2.jpg",
+   "kicker": "Dicembre",
+   "title": "Cene di Natale e di fine anno",
+   "cta": "Prenota il tavolo"
+  }
  ],
  "C-eventi": [
-  {"img":"https://static.wixstatic.com/media/b66580_755db6970914450cafce82942c2b206f~mv2.jpg","kicker":"Eventi privati","title":"La tua festa nella sala vetro","body":"Cene aziendali, compleanni, 18 anni, ricorrenze."},
-  {"img":"https://static.wixstatic.com/media/b66580_4f270fa0b68d4bf8b08100a0097b814b~mv2.jpg","kicker":"Menu su misura","title":"Dall'aperitivo alla cena servita"},
-  {"img":"https://static.wixstatic.com/media/b66580_5e4116a5394d43e1989e6c028e7df184~mv2.jpg","kicker":"Pomigliano d'Arco","title":"Raccontaci la tua idea","cta":"Richiedi un preventivo"}
+  {
+   "img": "https://static.wixstatic.com/media/b66580_755db6970914450cafce82942c2b206f~mv2.jpg",
+   "kicker": "Eventi privati",
+   "title": "La tua festa nella sala vetro",
+   "body": "Cene aziendali, compleanni, 18 anni, ricorrenze."
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_4f270fa0b68d4bf8b08100a0097b814b~mv2.jpg",
+   "kicker": "Menu su misura",
+   "title": "Dall'aperitivo alla cena servita"
+  },
+  {
+   "img": "https://static.wixstatic.com/media/b66580_7ac511b389ad44728aa1f058c880e925~mv2.jpeg",
+   "kicker": "Pomigliano d'Arco",
+   "title": "Raccontaci la tua idea",
+   "cta": "Richiedi un preventivo"
+  }
  ]
 }

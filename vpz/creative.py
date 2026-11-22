@@ -46,7 +46,7 @@ def slide(s, out, idx, tot):
     # dark gradient at bottom
     g = Image.new("L", (1, H))
     for y in range(H):
-        k = max(0, (y - H * 0.42) / (H * 0.58)); g.putpixel((0, y), int(235 * k ** 1.3))
+        k = min(1, max(0, (y - H * 0.30) / (H * 0.45))); g.putpixel((0, y), int(240 * k ** 1.1))
     shade = Image.new("RGB", (W, H), (14, 10, 8))
     im = Image.composite(shade, im, g.resize((W, H)))
     d = ImageDraw.Draw(im)
@@ -67,7 +67,7 @@ def slide(s, out, idx, tot):
     for ln in reversed(wrap(d, s["title"], f, W - 120)):
         y -= int(f.size * 1.12); d.text((60, y), ln, font=f, fill="white")
     if s.get("kicker"):
-        y -= 56; d.text((60, y), s["kicker"].upper(), font=F(SANS, 30), fill=RUST)
+        y -= 56; d.text((60, y), s["kicker"].upper(), font=F(SANS, 30), fill=(236, 170, 120))
     im.save(out, quality=92)
 
 cfg = json.load(open("creative.json"))
