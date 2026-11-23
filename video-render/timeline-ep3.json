@@ -1,0 +1,174 @@
+{
+ "scenes": {
+  "G": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/a14bfe740_scene01.jpg",
+  "HOP": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/212263dc8_scene10.jpg",
+  "CLAP": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/9d074df74_scene16.jpg",
+  "BYE": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/11b099ceb_scene08.jpg",
+  "FARM": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/5bc64f2ef_e3-fattoria.jpg",
+  "COW": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/f949e27a1_e3-mucca.jpg",
+  "DUCK": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/59a2dff96_e3-papera.jpg",
+  "DOG": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/1efb6bede_e3-cane.jpg",
+  "SHEEP": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/bf21ade1c_e3-pecora.jpg",
+  "ALL": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/21bd68d0a_e3-tutti.jpg"
+ },
+ "videos": {
+  "en": {
+   "name": "animal-song",
+   "animate": true,
+   "bpm": 105,
+   "end": 130,
+   "audio": "https://media.base44.com/files/public/6b01ca3020fc449ceec2f9a0/afdd7d0c7_animal-song-en.wav",
+   "cuts": [
+    [
+     0,
+     "FARM"
+    ],
+    [
+     8.7,
+     "G"
+    ],
+    [
+     18.6,
+     "HOP"
+    ],
+    [
+     28.5,
+     "COW"
+    ],
+    [
+     35.8,
+     "DUCK"
+    ],
+    [
+     42.8,
+     "DOG"
+    ],
+    [
+     46.5,
+     "SHEEP"
+    ],
+    [
+     50.5,
+     "HOP"
+    ],
+    [
+     59.2,
+     "CLAP"
+    ],
+    [
+     68.8,
+     "FARM"
+    ],
+    [
+     73.7,
+     "ALL"
+    ],
+    [
+     83.7,
+     "COW"
+    ],
+    [
+     90.9,
+     "SHEEP"
+    ],
+    [
+     95.6,
+     "BYE"
+    ],
+    [
+     103.2,
+     "ALL"
+    ],
+    [
+     114,
+     "CLAP"
+    ],
+    [
+     121,
+     "BYE"
+    ]
+   ]
+  },
+  "it": {
+   "name": "animal-song",
+   "animate": true,
+   "bpm": 105,
+   "end": 130,
+   "audio": "https://media.base44.com/files/public/6b01ca3020fc449ceec2f9a0/e12f0415f_animal-song-it.wav",
+   "cuts": [
+    [
+     0,
+     "FARM"
+    ],
+    [
+     7.6,
+     "G"
+    ],
+    [
+     17.1,
+     "HOP"
+    ],
+    [
+     26.1,
+     "CLAP"
+    ],
+    [
+     35.8,
+     "COW"
+    ],
+    [
+     40.2,
+     "DUCK"
+    ],
+    [
+     44.5,
+     "DOG"
+    ],
+    [
+     49.3,
+     "SHEEP"
+    ],
+    [
+     55,
+     "HOP"
+    ],
+    [
+     63.9,
+     "CLAP"
+    ],
+    [
+     73.6,
+     "ALL"
+    ],
+    [
+     84.1,
+     "FARM"
+    ],
+    [
+     89,
+     "DUCK"
+    ],
+    [
+     93.2,
+     "SHEEP"
+    ],
+    [
+     97.7,
+     "BYE"
+    ],
+    [
+     108,
+     "ALL"
+    ],
+    [
+     118.6,
+     "CLAP"
+    ],
+    [
+     124,
+     "BYE"
+    ]
+   ]
+  }
+ }
+}
