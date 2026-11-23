@@ -1,0 +1,22 @@
+name: Kids Song Club - trascrizione
+on:
+  workflow_dispatch:
+    inputs:
+      jobs:
+        description: 'JSON {"lang": "audio url"}'
+        required: true
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install faster-whisper
+      - working-directory: video-render
+        env:
+          JOBS: ${{ inputs.jobs }}
+        run: python3 transcribe.py "$JOBS"
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "transcript-$(date +%m%d%H%M%S)" video-render/transcript.json --title "Trascrizione" --notes "tempi"
