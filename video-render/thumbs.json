@@ -1,8 +1,17 @@
 {
- "colors-en": {"image": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/d7339d1f8_scene06.jpg", "title": "COLORS SONG!", "badge": "Learn 8 Colors"},
- "colors-it": {"image": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/d7339d1f8_scene06.jpg", "title": "I COLORI!", "badge": "Impara 8 colori"},
- "colors-es": {"image": "https://media.base44.com/images/public/6b01ae793be6172e55284e26/d7339d1f8_scene06.jpg", "title": "¡LOS COLORES!", "badge": "Aprende 8 colores"},
- "counting-en": {"image": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/5beb874d4_e2-palloncini.jpg", "title": "COUNT TO 10!", "badge": "1 2 3 4 5..."},
- "counting-it": {"image": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/5beb874d4_e2-palloncini.jpg", "title": "CONTA FINO A 10!", "badge": "1 2 3 4 5..."},
- "counting-es": {"image": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/5beb874d4_e2-palloncini.jpg", "title": "¡CUENTA HASTA 10!", "badge": "1 2 3 4 5..."}
+ "animals-en": {
+  "image": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/21bd68d0a_e3-tutti.jpg",
+  "title": "ANIMAL SOUNDS!",
+  "badge": "Moo Quack Woof Baa"
+ },
+ "animals-it": {
+  "image": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/21bd68d0a_e3-tutti.jpg",
+  "title": "I VERSI DEGLI ANIMALI!",
+  "badge": "Muu Qua Bau Beee"
+ },
+ "animals-es": {
+  "image": "https://media.base44.com/images/public/6b01ca3020fc449ceec2f9a0/21bd68d0a_e3-tutti.jpg",
+  "title": "¡SONIDOS DE ANIMALES!",
+  "badge": "Muu Cuac Guau Beee"
+ }
 }
