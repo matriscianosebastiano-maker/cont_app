@@ -169,6 +169,87 @@
      "BYE"
     ]
    ]
+  },
+  "es": {
+   "name": "animal-song",
+   "animate": true,
+   "bpm": 105,
+   "end": 130,
+   "audio": "https://media.base44.com/files/public/6b043a7f4d5b7045588715bf/485f7b5ad8252d124b4b4b76989d5963_animal-song-es.wav",
+   "cuts": [
+    [
+     0,
+     "FARM"
+    ],
+    [
+     1.0,
+     "G"
+    ],
+    [
+     9.7,
+     "HOP"
+    ],
+    [
+     18.6,
+     "CLAP"
+    ],
+    [
+     27.3,
+     "COW"
+    ],
+    [
+     32.6,
+     "DUCK"
+    ],
+    [
+     37.4,
+     "DOG"
+    ],
+    [
+     41.7,
+     "SHEEP"
+    ],
+    [
+     48.6,
+     "HOP"
+    ],
+    [
+     57.2,
+     "CLAP"
+    ],
+    [
+     66.6,
+     "ALL"
+    ],
+    [
+     79,
+     "FARM"
+    ],
+    [
+     84,
+     "DUCK"
+    ],
+    [
+     87.9,
+     "BYE"
+    ],
+    [
+     93,
+     "ALL"
+    ],
+    [
+     105,
+     "CLAP"
+    ],
+    [
+     112,
+     "HOP"
+    ],
+    [
+     120.6,
+     "BYE"
+    ]
+   ]
   }
  }
 }
