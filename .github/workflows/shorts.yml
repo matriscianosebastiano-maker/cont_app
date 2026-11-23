@@ -1,0 +1,15 @@
+name: Kids Song Club - shorts
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core && pip install pillow
+      - working-directory: video-render
+        run: python3 shorts.py
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "shorts-$(date +%m%d%H%M%S)" video-render/shorts/*.mp4 --title "Shorts" --notes "bozze"
